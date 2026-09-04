@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 400" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">FarmaRed - Tu farmacia de confianza</title>
+  <!-- Pin -->
+  <path d="M160,14
+           C100,14 48,64 48,124
+           C48,206 160,300 160,300
+           C160,300 272,206 272,124
+           C272,64 220,14 160,14 Z"
+        fill="#D6151A"/>
+  <circle cx="160" cy="122" r="72" fill="#FFFFFF"/>
+  <!-- Cruz -->
+  <rect x="136" y="70" width="48" height="104" rx="10" fill="#D6151A"/>
+  <rect x="108" y="98" width="104" height="48" rx="10" fill="#D6151A"/>
+  <!-- Corazon -->
+  <path d="M160,150
+           C150,138 132,138 132,122
+           C132,110 148,104 160,118
+           C172,104 188,110 188,122
+           C188,138 170,138 160,150 Z"
+        fill="#FFFFFF"/>
+  <!-- Wordmark -->
+  <text x="160" y="340" text-anchor="middle" font-family="Poppins, Montserrat, Nunito, sans-serif" font-weight="700" font-size="48">
+    <tspan fill="#21282D">Farma</tspan><tspan fill="#D6151A">Red</tspan>
+  </text>
+  <!-- Tagline -->
+  <text x="160" y="364" text-anchor="middle" font-family="Poppins, Montserrat, Nunito, sans-serif" font-weight="600" font-size="15" letter-spacing="1.5" fill="#21282D">
+    TU FARMACIA DE CONFIANZA
+  </text>
+  <!-- Linea decorativa -->
+  <path d="M60,382 C130,368 190,368 260,382" fill="none" stroke="#D6151A" stroke-width="3" stroke-linecap="round"/>
+</svg>

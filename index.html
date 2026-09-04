@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FarmaRed - Tu farmacia de confianza</title>
+  <meta name="description" content="FarmaRed, tu farmacia de confianza en Ecuador. Consulta promociones, productos de cuidado del bebe, vitaminas e higiene personal, y escribenos por WhatsApp.">
+  <link rel="canonical" href="https://www.farmared.com.ec/index.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FarmaRed - Tu farmacia de confianza">
+  <meta property="og:description" content="Farmacia ecuatoriana con promociones semanales y vitrina de productos. Solicita informacion directamente por WhatsApp.">
+  <meta property="og:image" content="img/banner-descuento.svg">
+  <meta property="og:url" content="https://www.farmared.com.ec/index.html">
+
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="encabezado">
+    <div class="contenedor navbar">
+      <a href="index.html" class="navbar__logo" aria-label="FarmaRed - Inicio">
+        <img src="img/logo-horizontal.svg" alt="FarmaRed - Tu farmacia de confianza">
+      </a>
+      <button class="navbar__toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu de navegacion">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar__menu" id="menu-principal">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a class="boton boton--primario" data-whatsapp-msg="Hola, me gustaria mas informacion sobre FarmaRed">Escribenos</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="contenedor">
+        <img class="hero__logo" src="img/favicon.svg" alt="" aria-hidden="true">
+        <h1>Tu farmacia de confianza</h1>
+        <p>Encuentra promociones, productos para toda la familia y atencion cercana. Escribenos y te ayudamos al instante.</p>
+        <div class="hero__acciones">
+          <a class="boton boton--secundario" data-whatsapp-msg="Hola, me gustaria solicitar informacion sobre la siguiente receta:">Contactanos por WhatsApp</a>
+          <a class="boton boton--outline" href="productos.html" style="background-color:#fff;">Ver productos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promociones semanales -->
+    <section class="seccion" aria-labelledby="titulo-promos">
+      <div class="contenedor">
+        <h2 class="titulo-seccion" id="titulo-promos">Promociones semanales</h2>
+        <p class="subtitulo-seccion">Ofertas destacadas de la semana. Escribenos por WhatsApp para conocer disponibilidad y precios.</p>
+
+        <div class="carrusel">
+          <div class="carrusel__pista" role="list">
+            <article class="tarjeta-promo" role="listitem">
+              <img class="tarjeta-promo__img" src="img/promos/promo-descuento.svg" alt="Descuentos de la semana" loading="lazy">
+              <div class="tarjeta-promo__cuerpo">
+                <h3>Descuentos de la semana</h3>
+                <p>Ofertas seleccionadas en productos de mayor rotacion.</p>
+                <a class="boton boton--primario boton--bloque" data-whatsapp-msg="Hola, quisiera conocer mas sobre los descuentos de la semana.">Escribenos</a>
+              </div>
+            </article>
+            <article class="tarjeta-promo" role="listitem">
+              <img class="tarjeta-promo__img" src="img/promos/promo-vitaminas.svg" alt="Promocion vitaminas y suplementos" loading="lazy">
+              <div class="tarjeta-promo__cuerpo">
+                <h3>Vitaminas y suplementos</h3>
+                <p>Refuerza tus defensas con nuestra linea de vitaminas.</p>
+                <a class="boton boton--primario boton--bloque" data-whatsapp-msg="Hola, quisiera consultar la promocion de vitaminas y suplementos.">Escribenos</a>
+              </div>
+            </article>
+            <article class="tarjeta-promo" role="listitem">
+              <img class="tarjeta-promo__img" src="img/promos/promo-bebe.svg" alt="Promocion cuidado del bebe" loading="lazy">
+              <div class="tarjeta-promo__cuerpo">
+                <h3>Cuidado del bebe</h3>
+                <p>Panales, toallitas y formula con precios especiales.</p>
+                <a class="boton boton--primario boton--bloque" data-whatsapp-msg="Hola, quisiera consultar la promocion de cuidado del bebe.">Escribenos</a>
+              </div>
+            </article>
+            <article class="tarjeta-promo" role="listitem">
+              <img class="tarjeta-promo__img" src="img/promos/promo-higiene.svg" alt="Promocion cuidado personal e higiene" loading="lazy">
+              <div class="tarjeta-promo__cuerpo">
+                <h3>Cuidado personal e higiene</h3>
+                <p>Todo lo que necesitas para tu rutina diaria.</p>
+                <a class="boton boton--primario boton--bloque" data-whatsapp-msg="Hola, quisiera consultar la promocion de cuidado personal e higiene.">Escribenos</a>
+              </div>
+            </article>
+          </div>
+          <div class="carrusel__controles">
+            <button class="carrusel__flecha" type="button" data-carrusel-anterior aria-label="Promocion anterior">&#8592;</button>
+            <button class="carrusel__flecha" type="button" data-carrusel-siguiente aria-label="Siguiente promocion">&#8594;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Por que elegir FarmaRed -->
+    <section class="seccion seccion--gris" aria-labelledby="titulo-beneficios">
+      <div class="contenedor">
+        <h2 class="titulo-seccion" id="titulo-beneficios">Por que elegir FarmaRed</h2>
+        <div class="beneficios">
+          <div class="tarjeta-beneficio">
+            <div class="tarjeta-beneficio__icono" aria-hidden="true">$</div>
+            <h3>Precios accesibles</h3>
+            <p>Productos de calidad a precios pensados para tu bolsillo.</p>
+          </div>
+          <div class="tarjeta-beneficio">
+            <div class="tarjeta-beneficio__icono" aria-hidden="true">&#9829;</div>
+            <h3>Para todas las edades</h3>
+            <p>Desde cuidado del bebe hasta suplementos para adultos.</p>
+          </div>
+          <div class="tarjeta-beneficio">
+            <div class="tarjeta-beneficio__icono" aria-hidden="true">&#10003;</div>
+            <h3>Cuidado e higiene personal</h3>
+            <p>Linea completa para el cuidado diario de toda la familia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner de descuento -->
+    <section class="seccion">
+      <div class="contenedor">
+        <div class="banner-descuento">
+          <img src="img/banner-descuento.svg" alt="Descuentos especiales de la semana" loading="lazy">
+          <div class="banner-descuento__accion">
+            <a class="boton boton--secundario" data-whatsapp-msg="Hola, quisiera conocer los descuentos especiales vigentes.">Quiero saber mas</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nuestra historia -->
+    <section class="seccion seccion--gris" aria-labelledby="titulo-historia">
+      <div class="contenedor historia">
+        <div>
+          <h2 class="titulo-seccion" style="text-align:left;" id="titulo-historia">Nuestra historia</h2>
+          <p>FarmaRed nace con el compromiso de acercar salud y bienestar a cada familia ecuatoriana. Desde nuestros inicios, hemos apostado por un servicio cercano, donde cada consulta se atiende con calidez y rapidez.</p>
+          <p>Hoy seguimos creciendo gracias a la confianza de nuestra comunidad, ofreciendo productos de calidad y una atencion personalizada a un mensaje de distancia por WhatsApp.</p>
+          <p><em>(Texto institucional de ejemplo: reemplazar con la historia real de FarmaRed.)</em></p>
+        </div>
+        <div class="historia__imagen">
+          <img src="img/logo.svg" alt="Logotipo de FarmaRed" loading="lazy">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie-pagina">
+    <div class="contenedor">
+      <div class="pie-pagina__grid">
+        <div>
+          <img class="pie-pagina__logo" src="img/logo-horizontal-claro.svg" alt="FarmaRed">
+          <p>Tu farmacia de confianza, cerca de ti.</p>
+        </div>
+        <div>
+          <h4>Cobertura</h4>
+          <p>Cantones de la provincia del Guayas. <em>(placeholder editable)</em></p>
+          <div class="pie-pagina__redes">
+            <a href="https://facebook.com/" aria-label="Facebook de FarmaRed" target="_blank" rel="noopener noreferrer">FB</a>
+            <a href="https://instagram.com/" aria-label="Instagram de FarmaRed" target="_blank" rel="noopener noreferrer">IG</a>
+          </div>
+        </div>
+        <div>
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="politica-privacidad.html">Politica de privacidad</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="pie-pagina__legales">
+        <p>&copy; <span data-anio-actual>2026</span> FarmaRed. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-flotante" data-whatsapp-flotante aria-label="Escribenos por WhatsApp" target="_blank" rel="noopener noreferrer">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.37 5.07L2 22l5.06-1.33A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.1-.44-4.38-1.2l-.31-.18-3 .79.8-2.92-.2-.3A7.94 7.94 0 014 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.4-5.6c-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.18-.71-.63-1.19-1.42-1.33-1.66-.14-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.19-.46-.39-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.43-.58 1.63-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

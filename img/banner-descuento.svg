@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="Banner de descuento destacado">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D6151A"/>
+      <stop offset="100%" stop-color="#A8100F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <circle cx="1050" cy="60" r="140" fill="#FFFFFF" opacity="0.06"/>
+  <circle cx="120" cy="260" r="100" fill="#FFFFFF" opacity="0.06"/>
+  <text x="80" y="150" font-family="Poppins, Montserrat, sans-serif" font-weight="700" font-size="54" fill="#FFFFFF">Descuentos especiales</text>
+  <text x="80" y="200" font-family="Poppins, Montserrat, sans-serif" font-weight="500" font-size="26" fill="#FFFFFF">Consulta las ofertas de la semana en tu farmacia de confianza</text>
+</svg>
