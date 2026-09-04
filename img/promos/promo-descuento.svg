@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Promocion de descuento">
+  <rect width="400" height="300" fill="#F5F5F5"/>
+  <circle cx="200" cy="140" r="90" fill="#D6151A" opacity="0.08"/>
+  <g transform="translate(115,75)">
+    <rect x="0" y="0" width="170" height="130" rx="16" fill="#D6151A"/>
+    <circle cx="40" cy="40" r="14" fill="#FFFFFF"/>
+    <circle cx="130" cy="90" r="14" fill="#FFFFFF"/>
+    <line x1="35" y1="100" x2="135" y2="30" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <text x="200" y="250" text-anchor="middle" font-family="Poppins, Montserrat, sans-serif" font-weight="700" font-size="26" fill="#21282D">Promocion</text>
+</svg>

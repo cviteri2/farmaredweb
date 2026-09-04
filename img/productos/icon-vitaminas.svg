@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Suplementos y vitaminas">
+  <rect width="200" height="200" fill="#F5F5F5"/>
+  <g transform="translate(70,35)">
+    <rect x="0" y="0" width="60" height="110" rx="30" fill="#21282D"/>
+    <rect x="0" y="55" width="60" height="55" rx="0" fill="#D6151A"/>
+    <rect x="0" y="0" width="60" height="110" rx="30" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  </g>
+</svg>
